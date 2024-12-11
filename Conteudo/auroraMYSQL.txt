@@ -1,0 +1,9 @@
+Aurora MySQL é um banco de dados compatível com MySQL de classe empresarial da Amazon. O
+
+Aurora MySQL oferece:
+
+até cinco vezes a throughput do MySQL Community Edition
+Até 128 TB de armazenamento SSD de escalabilidade automática na replicação
+Replicação de seis vias entre três zonas de disponibilidade
+Até 15 réplicas de leitura com atraso de réplica abaixo de 10 ms
+Monitoramento automático com failover

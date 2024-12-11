@@ -1,0 +1,12 @@
+Apresentação das tecnologias
+Amazon Aurora
+
+O Aurora é um mecanismo de banco de dados relacional, compatível com MySQL e totalmente gerenciado, que combina o desempenho e a confiabilidade de bancos de dados comerciais avançados com a simplicidade e a economia de bancos de dados de código aberto. Ele oferece até cinco vezes mais desempenho que o MySQL sem exigir alterações na maioria das aplicações existentes que usam bancos de dados MySQL.
+
+Amazon Elastic Compute Cloud (Amazon EC2)
+
+O Amazon EC2 é um serviço da web que fornece capacidade computacional redimensionável na nuvem. Ele foi projetado para facilitar a computação em nuvem na escala da web para os desenvolvedores. O Amazon EC2 reduz o tempo necessário para provisionar novas instâncias do servidor em minutos, oferecendo a você a possibilidade de dimensionar capacidade para mais ou para menos, de acordo com a mudança nos requisitos de computação.
+
+Amazon Relational Database Service (Amazon RDS)
+
+O Amazon RDS facilita a configuração, a operação e o dimensionamento de um banco de dados relacional na nuvem. Ele fornece uma capacidade econômica e redimensionável enquanto gerencia tarefas demoradas de administração de banco de dados, permitindo que você se concentre nas aplicações e na empresa. O Amazon RDS apresenta seis opções de mecanismos de banco de dados familiares, como Aurora, Oracle, Microsoft SQL Server, PostgreSQL, MySQL e MariaDB.
