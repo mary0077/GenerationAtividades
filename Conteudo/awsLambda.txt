@@ -1,0 +1,17 @@
+AWS Lambda é um serviço de computação sem servidor (serverless) da Amazon Web Services (AWS) que permite executar código sem precisar provisionar ou gerenciar servidores. Com o Lambda, você apenas envia seu código para a AWS, e o serviço cuida de todo o gerenciamento da infraestrutura necessária para rodar sua aplicação.
+
+Características principais do AWS Lambda:
+Execução baseada em eventos: O código do Lambda é executado em resposta a eventos, como mudanças em objetos no Amazon S3, atualizações de registros no DynamoDB, chamadas HTTP via Amazon API Gateway, entre outros.
+
+Escalabilidade automática: O AWS Lambda escala automaticamente conforme o número de requisições ou eventos, sem necessidade de intervenção manual. Ele pode processar desde uma única requisição até milhões de requisições simultâneas.
+
+Cobrança baseada no uso: Você paga apenas pelo tempo em que seu código está em execução, com base no número de solicitações e no tempo de execução (em milissegundos). Não há custo fixo, o que torna o Lambda uma opção muito econômica para muitas aplicações.
+
+Suporte a várias linguagens de programação: O AWS Lambda suporta várias linguagens de programação como Python, JavaScript (Node.js), Java, C#, Go, Ruby, entre outras. Também é possível usar containers no Lambda para executar código em qualquer linguagem que você preferir.
+
+Sem gerenciamento de infraestrutura: Não é necessário configurar ou gerenciar servidores. O Lambda cuida de toda a infraestrutura, o que permite que os desenvolvedores se concentrem apenas na lógica do código.
+
+Exemplos de uso:
+Processamento de arquivos: Processar imagens enviadas para o Amazon S3, como redimensionamento ou conversão de formatos.
+APIs RESTful: Criar APIs sem servidor com o Amazon API Gateway e AWS Lambda.
+Automação de tarefas: Automatizar tarefas de infraestrutura, como backups ou monitoramento de logs.
