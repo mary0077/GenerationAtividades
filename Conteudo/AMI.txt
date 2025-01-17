@@ -1,0 +1,26 @@
+As Imagens de Máquina da Amazon (AMIs) são modelos usados para inicializar instâncias do Amazon EC2. Elas contêm todas as informações necessárias para iniciar uma instância, como:
+
+Sistema operacional (ex.: Linux, Windows).
+Softwares pré-instalados.
+Configurações de armazenamento e permissões.
+Características principais das AMIs:
+Âmbito Regional:
+
+AMIs são específicas de uma Região da AWS.
+Caso seja necessário usá-las em outra região, é possível copiá-las.
+Reutilização:
+
+Uma única AMI pode ser usada para inicializar várias instâncias simultaneamente, facilitando a escalabilidade.
+Criação e Personalização:
+
+Você pode criar sua própria AMI a partir de uma instância existente, incluindo configurações personalizadas e softwares específicos.
+Armazenamento:
+
+AMIs são armazenadas no Amazon S3 e associadas a volumes do Amazon Elastic Block Store (EBS) ou instâncias armazenadas.
+Compatibilidade:
+
+AMIs são aplicadas durante o início de uma instância e não depois que ela já está em execução.
+Benefícios das AMIs:
+Automação: Permitem replicar ambientes rapidamente.
+Consistência: Garantem que todas as instâncias sejam iniciadas com a mesma configuração.
+Flexibilidade: Podem ser compartilhadas com outras contas da AWS ou no AWS Marketplace.
